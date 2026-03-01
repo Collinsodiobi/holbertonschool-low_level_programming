@@ -1,2 +1,2 @@
-export CFILE=1-main.c
-./1-compiler
+#!/bin/bash
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
