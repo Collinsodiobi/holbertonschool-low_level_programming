@@ -1,1 +1,4 @@
-1-alphabet
+*.o
+0-98
+a.out
+0-main.c
