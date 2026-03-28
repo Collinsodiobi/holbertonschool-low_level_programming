@@ -1,10 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Prototype for _putchar */
+char *_memset(char *s, char b, unsigned int n);
 int _putchar(char c);
-
-/* Prototype for _strcat */
-char *_strcat(char *dest, char *src);
 
 #endif /* MAIN_H */
