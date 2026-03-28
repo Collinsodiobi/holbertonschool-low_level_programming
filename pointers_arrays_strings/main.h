@@ -1,8 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
+/* Prototype for _putchar */
 int _putchar(char c);
+
+/* Prototype for _strcat */
+char *_strcat(char *dest, char *src);
 
 #endif /* MAIN_H */
