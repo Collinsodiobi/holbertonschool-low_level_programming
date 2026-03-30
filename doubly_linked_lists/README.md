@@ -1,6 +1,9 @@
-Doubly Linked Lists - Task 0
+# Hash Tables
 
-This project implements a function that prints all elements of a doubly linked list.
-The list is traversed from head to tail, and the number of nodes is returned.
+This project implements basic hash table data structures in C, including creation of a hash table and handling collisions. Functions follow Betty style and include proper documentation.
+
+
+
+
 
 Author: Collinsodiobi
