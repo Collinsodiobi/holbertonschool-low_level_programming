@@ -1,6 +1,14 @@
 # Hash Tables
 
-This project implements basic hash table data structures in C, including creation of a hash table and handling collisions. Functions follow Betty style and include proper documentation.
+This project implements hash tables in C. It includes:
+
+- Creating a hash table with a given size
+- Handling collisions using chaining
+- Basic hash table operations (insertion, search, deletion)
+
+All functions follow Betty coding style and documentation.
+
+
 
 
 
