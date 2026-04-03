@@ -2,13 +2,14 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @n: the integer to check
+ * @n: the number to compute
  *
- * Return: the absolute value of n
+ * Return: absolute value of n
  */
 int _abs(int n)
 {
 	if (n < 0)
-		n = -n;
+		return (-n);
+
 	return (n);
 }
