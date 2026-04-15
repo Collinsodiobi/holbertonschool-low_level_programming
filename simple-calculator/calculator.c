@@ -22,12 +22,17 @@ int main(void)
             break;
         }
         else if (choice == 1)
-        {
-            int a, b;
-            printf("Enter two numbers: ");
-            scanf("%d %d", &a, &b);
-            printf("Result: %d\n", a + b);
-        }
+{
+    int a, b;
+
+    printf("A: ");
+    scanf("%d", &a);
+
+    printf("B: ");
+    scanf("%d", &b);
+
+    printf("Result: %d\n", a + b);
+}
         else if (choice == 2)
         {
             int a, b;
