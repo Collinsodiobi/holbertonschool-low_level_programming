@@ -15,6 +15,7 @@ int main(void)
         printf("Choice: ");
 
         scanf("%d", &choice);
+	printf("DEBUG choice = %d\n", choice);
 
         if (choice == 0)
         {
@@ -34,12 +35,17 @@ int main(void)
     printf("Result: %d\n", a + b);
 }
         else if (choice == 2)
-        {
-            int a, b;
-            printf("Enter two numbers: ");
-            scanf("%d %d", &a, &b);
-            printf("Result: %d\n", a - b);
-        }
+{
+    int a, b;
+
+    printf("A: ");
+    scanf("%d", &a);
+
+    printf("B: ");
+    scanf("%d", &b);
+
+    printf("Result: %d\n", a - b);
+}
         else if (choice == 3)
         {
             int a, b;
