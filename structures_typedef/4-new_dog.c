@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 /**
- * _strlen - returns length of string
+ * _strlen - returns the length of a string
+ * @s: string to evaluate
+ *
+ * Return: length of string
  */
 int _strlen(char *s)
 {
@@ -10,11 +13,16 @@ int _strlen(char *s)
 
 	while (s[i])
 		i++;
+
 	return (i);
 }
 
 /**
  * _strcpy - copies a string
+ * @dest: destination string
+ * @src: source string
+ *
+ * Return: pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -26,16 +34,17 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 	dest[i] = '\0';
+
 	return (dest);
 }
 
 /**
  * new_dog - creates a new dog
- * @name: dog name
- * @age: dog age
- * @owner: dog owner
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
  *
- * Return: pointer to new dog, or NULL if failure
+ * Return: pointer to new dog, or NULL on failure
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
