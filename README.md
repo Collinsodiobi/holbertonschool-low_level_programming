@@ -1,16 +1,11 @@
-# Holberton School - Low Level Programming
+# Low Level Programming
 
-## Project: Pointers, Arrays and Strings
+This repository contains C programming projects completed as part of the Holberton curriculum.
 
-This project introduces:
-- Pointers in C
-- Arrays and memory handling
-- Strings manipulation
+## Projects
 
-## Task 0: 98 Battery st.
+- singly_linked_lists: Implementation and manipulation of singly linked lists in C.
 
-Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+## Author
 
-### Prototype:
-```c
-void reset_to_98(int *n);1-compiler: Compiles a C file without linking. Produces a .o file from a .c file.
+- collins
